@@ -1,0 +1,48 @@
+#root {
+  max-width:100%;
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  align-items: center;
+  text-align: center;
+
+}
+ul{
+  list-style: none;
+  display: flex;
+
+}
+ul li{
+  padding: 2em;
+}
+form{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  box-shadow: 2px 2px 20px 2px black;
+}
+form input{
+  padding: 1em;
+  margin: 1em;
+}
+.wrpper{
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
